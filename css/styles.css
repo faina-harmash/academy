@@ -1,15 +1,34 @@
-* {
-  box-sizing: border-box;
+*. {
+box-sizing: border-box;
 }
 
+/* Container
+=====================*/
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  
+}
+
+/* HEADER
+======================*/
 ul {
   list-style-type: none;
   padding: 0;
 }
 
+.showtrackr {
+  color:#000000;
+}
+.showtrackr_span {
+  color: #540cfa;
+}
+
 .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
   align-items: center;
 }
@@ -29,8 +48,23 @@ ul {
   margin-right: auto;
 }
 
+
+.two-buttons {
+  display: flex;
+  align-items: center;
+
+}
+
+.button-login {
+  text-align: center;
+  border: none;
+  background-color: #ffffff;
+
+
+}
+
 .button {
-  background-color: lightpink;
+  background-color: #540cfa;
   color: #ffffff;
   border-radius: 4px;
   padding: 8px 16px;
@@ -41,3 +75,33 @@ ul {
   background-color: rgb(190, 34, 157);
   transition: all 0.3s ease-in;
 }
+
+/*FIRST PART
+====================*/
+.first-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 55px;
+
+
+  height: 620px;
+}
+
+.compitable-with {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iphone-size {
+  max-height: 150px;
+  max-width: 200px;
+  width: 120px;
+  height: 120px;
+}
+
+  
+
+
+
