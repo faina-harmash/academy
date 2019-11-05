@@ -1,5 +1,5 @@
 *. {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Container
@@ -7,20 +7,28 @@ box-sizing: border-box;
 .container {
   box-sizing: border-box;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1440px;
   margin: 0 auto;
-  
+  display: flex;
+  flex-direction: column;
 }
+
+
 
 /* HEADER
 ======================*/
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
 }
 
 .showtrackr {
-  color:#000000;
+  color: #000000;
 }
 .showtrackr_span {
   color: #540cfa;
@@ -28,9 +36,10 @@ ul {
 
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
   align-items: center;
+  width: 1100px;
 }
 
 .navigation_list {
@@ -48,19 +57,15 @@ ul {
   margin-right: auto;
 }
 
-
 .two-buttons {
   display: flex;
   align-items: center;
-
 }
 
 .button-login {
   text-align: center;
   border: none;
   background-color: #ffffff;
-
-
 }
 
 .button {
@@ -83,26 +88,85 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-left: 55px;
-
-
+  padding-left: 80px;
+  width: 1100px;
   height: 620px;
+}
+
+.header1 {
+  width:570px;
+  height:144px;
+}
+
+.header1-paragraph {
+  width:471px;
+  height: 96px;
+}
+
+.compitable-title {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  height: 3px;
 }
 
 .compitable-with {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 460px;
+  height: 1px;
 }
 
 .iphone-size {
-  max-height: 150px;
-  max-width: 200px;
-  width: 120px;
-  height: 120px;br bhdfvbjn
+  width: 3100px;
+  height: 620px;
 }
 
-  
+/*SEKOND PART
+====================*/
 
+.second-part {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+/*BUTTONS IN THE MIDDLE*/
 
+.buttons-in-the-middle {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
 
+.gradient-button1 {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px 0 rgba(36, 8, 128, 0.15);
+  background-image: linear-gradient(to top, #9c09db, #1c0fd7);
+}
+.gradient-button2 {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px 0 rgba(128, 32, 0, 0.15);
+  background-image: linear-gradient(to top, #f2c314, #fc3832);
+}
 
+.gradient-button3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px 0 rgba(8, 38, 168, 0.15);
+  background-image: linear-gradient(to top, #32fbfc, #3214f2);
+}
+}
+
+/*FILM ICONS*/
+.films-icons {
+  display: flex;
+  justify-content: space-between;
+}
