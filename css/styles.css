@@ -1,10 +1,35 @@
-* {
+*. {
   box-sizing: border-box;
 }
 
+/* Container
+=====================*/
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+/* HEADER
+======================*/
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+.showtrackr {
+  color: #000000;
+}
+.showtrackr_span {
+  color: #540cfa;
 }
 
 .navigation {
@@ -12,6 +37,7 @@ ul {
   justify-content: space-between;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
   align-items: center;
+  width: 1100px;
 }
 
 .navigation_list {
@@ -29,8 +55,19 @@ ul {
   margin-right: auto;
 }
 
+.two-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.button-login {
+  text-align: center;
+  border: none;
+  background-color: #ffffff;
+}
+
 .button {
-  background-color: lightpink;
+  background-color: #540cfa;
   color: #ffffff;
   border-radius: 4px;
   padding: 8px 16px;
@@ -42,4 +79,59 @@ ul {
   transition: all 0.3s ease-in;
 }
 
+/*FIRST PART
+====================*/
+.first-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 80px;
 
+  height: 620px;
+}
+
+.compitable-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.compitable-with {
+  display: flex;
+  justify-content: space-around;
+}
+
+.iphone-size {
+}
+
+/*SEKOND PART
+====================*/
+
+.second-part {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+/*BUTTONS IN THE MIDDLE*/
+
+.buttons-in-the-middle {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.gradient-button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px 0 rgba(36, 8, 128, 0.15);
+  background-image: linear-gradient(to top, #9c09db, #1c0fd7);
+}
+
+/*FILM ICONS*/
+.films-icons {
+  display: flex;
+  justify-content: space-between;
+}
