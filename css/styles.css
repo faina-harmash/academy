@@ -83,12 +83,17 @@ ul {
 
 /*FIRST PART
 ====================*/
+.first-block  {
+  display: flex;
+  justify-content: center;
+}
+
 .first-part {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-left: 80px;
+  text-align: left;
   width: 1100px;
   height: 620px;
 }
