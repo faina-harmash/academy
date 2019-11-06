@@ -23,6 +23,11 @@
 .menu {
   display: flex;
   justify-content: center;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  background-color: white;
+  top: 0;
   /*position: fixed;*/
 }
 
@@ -274,8 +279,134 @@ ul {
   padding: 0;
   
 }
+/*BLACK PART*/
+.black-part {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 770px;
+  
+}
+
+.black-part-inside {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  width: 1100px;
+}
+
+.left-part {
+  align-self: center;
+}
+
+.testimonials-button {
+  width: 216px;
+  height: 42px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(32, 5, 97, 0.08), 0 2px 4px 0 rgba(32, 5, 97, 0.1);
+  background-color: #540cfa;
+  color: white;
+}
+
+/*TWITTER PART*/
+.twitter-part {
+  width: 600px;
+  height: 770px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-twitter-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.second-twitter-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.message-field:hover {
+  width: 260px;
+  height: 211px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.08);
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  /*-webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);*/
+  transform: scale(1.2);
+  transition-duration: 3s;
+  
+
+}
+
+.image-name {
+  display: flex;
+  justify-content: flex-start;
+  width: 230px;
+  
+}
+.avatar-image {
+  width: 36px;
+  height: 36px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.08);
+  align-self: center;
+}
+.space-avatar {
+  width: 40px;
+  height: 36px;
+  align-self: center;
+}
+
+.text-message {
+  width: 230px;
+  align-self: center;
+  align-items: center;
+}
 
 
+
+/*END PART*/
+.endpart-block {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.endpart-position {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.email-button {
+  display: flex;
+}
+
+.email-part {
+  width: 310px;
+  height: 53px;
+  border-right: 0;
+}
+
+.purple-button {
+  width: 140px;
+  height: 53px;
+  background-color: #540cfa;
+  color: white;
+  border-left: 0;
+}
 /*FOOTER*/
 .footer {
   display:flex;
