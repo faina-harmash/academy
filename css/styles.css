@@ -266,19 +266,43 @@ ul {
 
 .images-field {
   width: 1440px;
-  margin-top: 140px;
+  height: 330px;
 }
 
 .films-icons {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  margin-top: 140px;
-
-  list-style-type: none;
-  padding: 0;
-  
+  list-style-type: none; 
 }
+
+.right-film-size {
+  width: 220px;
+  height: 330px;
+
+}
+
+/*ALMOUST END OF THE PAGE*/
+.main-middle-block {
+  width: 1440px;
+  height: 950px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-block-part {
+  width: 730px;
+  height: px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iphone-block-part {
+  width: 710px;
+  background-image: url("../images/background.png");
+  background-position: right 35% bottom 80%;
+  background-size: 651px, 511px;
+}
+
 /*BLACK PART*/
 .black-part {
   display: flex;
@@ -380,6 +404,7 @@ ul {
   display: flex;
   justify-content: center;
   align-content: center;
+  height:665px;
 }
 
 .endpart-position {
@@ -412,6 +437,8 @@ ul {
   display:flex;
   justify-content: center;
   flex-direction: column;
+  height: 75px;
+  
 }
 
 .footer-items {
@@ -424,10 +451,23 @@ ul {
   justify-content: space-between;
   list-style-type: none;
   opacity: 0.4;
-  width: 200px;
+  width: 120px;
+}
+.right-twitter-size {
+  width: 19px;
+  height: 16px;
+}
+.right-facebook-size {
+  width: 16px;
+  height: 16px;
+}
+.right-youtoobe-size {
+  width: 22px;
+  height: 16px;
 }
 .copyright {
   display: flex;
   justify-content: center;
+  
   opacity: 0.4;
 }
