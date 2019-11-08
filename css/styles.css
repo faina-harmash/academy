@@ -132,9 +132,9 @@ ul {
 .first-block  {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
-  z-index: 2;
-  position: absolute;
+  width: 1440px;
+  height: 950px;
+  
 }
 
 .first-part {
@@ -194,7 +194,6 @@ ul {
 .iphone-size {
   width: 3100px;
   height: 620px;
-  margin-top: -65px;
 }
 
 /*SEKOND PART
