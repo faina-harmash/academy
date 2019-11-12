@@ -28,6 +28,7 @@
   position: sticky;
   background-color: white;
   top: 0;
+  margin-bottom: 85px;
   /*position: fixed;*/
 }
 
@@ -133,7 +134,8 @@ ul {
   display: flex;
   justify-content: center;
   width: 1440px;
-  height: 950px;
+ /* height: 950px;*/
+  margin-bottom: 180px;
   
 }
 
@@ -144,7 +146,8 @@ ul {
   align-items: flex-start;
   text-align: left;
   width: 1100px;
-  height: 620px;
+  /*height: 620px;*/
+ 
   
 }
 
@@ -159,9 +162,6 @@ ul {
   width:471px;
   height: 96px;
 }
-
-
-
 
 
 .compitable-with-block {
@@ -182,15 +182,12 @@ ul {
 .compitable-with {
   display: flex;
   justify-content: space-between;
-  
-  
   list-style-type: none;
   padding: 0 0;
   opacity: 0.6;
 }
+
   
-
-
 .iphone-size {
   width: 3100px;
   height: 620px;
@@ -204,7 +201,7 @@ ul {
   justify-content: center;
   justify-items: center;
   text-align: center;
-  margin-top: 193px;
+  /*margin-top: 193px;*/
 }
 /*BUTTONS IN THE MIDDLE*/
 
@@ -212,7 +209,7 @@ ul {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-top: 140px;
+  margin-bottom: 140px;
 }
 
 
@@ -259,13 +256,14 @@ ul {
   height: 24px;
   object-fit: contain;
 }
-}
+
 
 /*FILM ICONS*/
 
 .images-field {
   width: 1440px;
-  height: 330px;
+  /*height: 330px;*/
+  margin-bottom: 140px;
 }
 
 .films-icons {
@@ -284,22 +282,38 @@ ul {
 /*ALMOUST END OF THE PAGE*/
 .main-middle-block {
   width: 1440px;
-  height: 950px;
+  /*height: 950px;*/
   display: flex;
   justify-content: space-between;
 }
 .text-block-part {
   width: 730px;
-  height: px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* LILA MARKED LIST*/
+.lila-ul {
+  
+}
+
+.first-li {
+  list-style-image: url("../icons/dashboard.png");
+  
+}
+
+.first-li:before {
+  width: 20px;
+  height: 20px;
 }
 .iphone-block-part {
   width: 710px;
   background-image: url("../images/background.png");
   background-position: right 35% bottom 80%;
-  background-size: 651px, 511px;
+  /*background-size: 651px, 511px;*/
+  background-size: cover;
 }
 
 /*BLACK PART*/
@@ -307,9 +321,12 @@ ul {
   display: flex;
   justify-content: center;
   background-color: black;
-  height: 770px;
   
+  margin-bottom: 140px;
+  color: white;
 }
+  
+
 
 .black-part-inside {
   display: flex;
@@ -317,6 +334,7 @@ ul {
   background-color: black;
   color: white;
   width: 1100px;
+  
 }
 
 .left-part {
@@ -344,6 +362,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 
 }
 
@@ -351,6 +370,18 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.message-field {
+  width: 260px;
+  height: 211px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.08);
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .message-field:hover {
@@ -365,8 +396,8 @@ ul {
 
   /*-webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);*/
-  transform: scale(1.2);
-  transition-duration: 3s;
+  transform: scale(1.1);
+  transition-duration: 1s;
   
 
 }
@@ -403,7 +434,8 @@ ul {
   display: flex;
   justify-content: center;
   align-content: center;
-  height:665px;
+  margin-bottom: 120px;
+  /*height:665px;*/
 }
 
 .endpart-position {
@@ -422,6 +454,7 @@ ul {
   width: 310px;
   height: 53px;
   border-right: 0;
+  margin-top: 50px;
 }
 
 .purple-button {
@@ -430,13 +463,14 @@ ul {
   background-color: #540cfa;
   color: white;
   border-left: 0;
+  margin-top: 50px;
 }
 /*FOOTER*/
 .footer {
   display:flex;
   justify-content: center;
   flex-direction: column;
-  height: 75px;
+  margin-bottom: 30px;
   
 }
 
