@@ -133,8 +133,6 @@ ul {
 .first-block  {
   display: flex;
   justify-content: center;
-  width: 1440px;
- /* height: 950px;*/
   margin-bottom: 180px;
   
 }
@@ -143,40 +141,65 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
-  text-align: left;
-  width: 1100px;
-  /*height: 620px;*/
- 
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
   
 }
 
 .header1 {
-  
-  width:570px;
-  height:80px;
+  width: 570px;
+  height: 144px;
   margin-bottom: 10px;
+  font-family: "Source Sans Pro";
+  font-size: 70px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: normal;
+  color: #000000
+  
 }
 
 .header1-paragraph {
   width:471px;
   height: 96px;
+  font-family: "Source Sans Pro";
+  font-size: 21px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #000000;
 }
 
 
 .compitable-with-block {
   margin-top: 150px;
-  width: 460px;
+  max-width: 460px;
+  width: 100%;
   height: 2px;
+
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #000000;
 }
 
 .compitable-title {
   display: flex;
   flex-direction: column;
   width: 460px;
-  height: 3px;
-  opacity: 0.2;
+  height: 15px;
+  opacity: 0.3;
   margin-bottom: 0px;
+ 
 }
 
 .compitable-with {
@@ -189,23 +212,85 @@ ul {
 
   
 .iphone-size {
-  width: 3100px;
+  max-width: 310px;
+  width: 100%;
   height: 620px;
 }
 
 /*SEKOND PART
 ====================*/
 
+.second-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .second-part {
   display: flex;
   justify-content: center;
   justify-items: center;
+  align-items: center;
   text-align: center;
-  /*margin-top: 193px;*/
+  max-width: 1100px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.second-part_position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.p-features {
+  width: 63px;
+  height: 23px;
+  opacity: 0.8;
+  font-family: "SourcebSans Pro";
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  align-self: center;
+}
+
+.header2 {
+  width: 610px;
+  height: 126px;
+  font-family: "Source Sans Pro";
+  font-size: 60px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.p-middle {
+  width: 610px;
+  height: 96px;
+  opacity: 0.8;
+  font-family: "Source Sans Pro";
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #000000;
 }
 /*BUTTONS IN THE MIDDLE*/
 
 .buttons-in-the-middle {
+  max-width: 1100px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -257,6 +342,33 @@ ul {
   object-fit: contain;
 }
 
+.header4 {
+  width: 300px;
+  height: 23px;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.header4-p {
+  width: 300px;
+  height: 48px;
+  opacity: 0.7;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
 
 /*FILM ICONS*/
 
@@ -287,33 +399,93 @@ ul {
   justify-content: space-between;
 }
 .text-block-part {
-  width: 730px;
+  width: 50.5%;
   
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.h3-easy {
+  width: 460px;
+  height: 100px;
+  font-family: "Source Sans Pro";
+  font-size: 46px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.h3-p-easy {
+  width: 460px;
+  height: 112px;
+  opacity: 0.8;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+}
+
 /* LILA MARKED LIST*/
-.lila-ul {
-  
+.li-img-block {
+  height: 54px;
+  width: 340px;
+  display: flex;
+  align-content: flex-start;
+  padding-left: 15px;
+}
+.li-img-block:hover {
+  background-color: rgb(211, 203, 219);
+  transition: all 0.3s ease-in;
+  text-decoration: none !important;
 }
 
-.first-li {
-  list-style-image: url("../icons/dashboard.png");
-  
-}
-
-.first-li:before {
-  width: 20px;
+.li-img {
   height: 20px;
+  width: 20px;
+  align-self: center;
+  
 }
+
+.p-li-text {
+  height: 20px;
+  padding-left: 15px;
+  text-align: center;
+  
+  font-family: "SourceSansPro";
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+
+
 .iphone-block-part {
-  width: 710px;
-  background-image: url("../images/background.png");
-  background-position: right 35% bottom 80%;
-  /*background-size: 651px, 511px;*/
-  background-size: cover;
+  width: 49.5%;
+  display: flex;
+}
+
+
+.second-iphone-size {
+  width: 265px;
+  height: 530px;
+}
+
+.background-field {
+  max-width: 651px;
+  width: 100%;
+  max-height: 511px;
 }
 
 /*BLACK PART*/
@@ -339,6 +511,48 @@ ul {
 
 .left-part {
   align-self: center;
+  width: 50%;
+}
+
+.p-community {
+  width: 86px;
+  height: 23px;
+  opacity: 0.8;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.h3-black-part {
+  width: 460px;
+  height: 100px;
+  font-family: "Source Sans Pro";
+  font-size: 46px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.h3-p-black-part {
+  width: 420px;
+  height: 112px;
+  opacity: 0.8;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #ffffff;
 }
 
 .testimonials-button {
@@ -352,7 +566,8 @@ ul {
 
 /*TWITTER PART*/
 .twitter-part {
-  width: 600px;
+  width: 50%;
+  /*width: 600px;*/
   height: 770px;
   display: flex;
   justify-content: space-between;
@@ -421,10 +636,32 @@ ul {
   align-self: center;
 }
 
+.twit-name {
+  width: 72px;
+  height: 15px;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
 .text-message {
   width: 230px;
   align-self: center;
   align-items: center;
+
+  font-family: "Source Sans Pro";
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #ffffff;
 }
 
 
@@ -446,6 +683,47 @@ ul {
   text-align: center;
 }
 
+.p-end-part {
+  width: 82px;
+  height: 23px;
+  opacity: 0.8;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.h2-end-part {
+  width: 606px;
+  height: 126px;
+  font-family: SourceSansPro;
+  font-size: 60px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.p2-end-part {
+  width: 610px;
+  height: 96px;
+  opacity: 0.8;
+  font-family: SourceSansPro;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #000000;
+}
+
 .email-button {
   display: flex;
 }
@@ -455,6 +733,7 @@ ul {
   height: 53px;
   border-right: 0;
   margin-top: 50px;
+  border-width: thin;
 }
 
 .purple-button {
