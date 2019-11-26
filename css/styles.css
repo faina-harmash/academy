@@ -443,6 +443,10 @@ ul {
   align-content: flex-start;
   padding-left: 15px;
 }
+
+.no-decoration {
+  text-decoration: none;
+}
 /*.li-img-block:hover {
   background-color: rgb(211, 203, 219);
   transition: all 0.3s ease-in;
@@ -995,20 +999,18 @@ ul {
 
   /*FILM ICONS*/
   .images-field {
-    width: 768px;
+    width: 100%;
     margin-bottom: 80px;
   }
   /*ALMOUST END OF THE PAGE*/
   .main-middle-block {
-    max-width: 776px;
+    width: 100%;
 
     flex-direction: column;
   }
 
   .text-block-part {
-    max-width: 350px;
     width: 100%;
-    justify-content: flex-start;
   }
 
   .h3-easy {
@@ -1031,12 +1033,17 @@ ul {
   }
 
   .iphone-block-part {
-    max-width: 776px;
     width: 100%;
   }
 
   .iphone-iphone {
     position: static;
+    width: 100%;
+  }
+
+  .second-iphone-size {
+    width: 100%;
+    height: 530px;
   }
 
   .background-field {
@@ -1047,18 +1054,17 @@ ul {
   .black-part {
     flex-direction: column;
     margin-bottom: 70px;
-    width: 776px;
+    width: 100%;
   }
 
   .black-part-inside {
     flex-direction: column;
-
-    width: 776px;
+    width: 100%;
   }
 
   .left-part {
-    align-self: flex-start;
-    width: auto;
+    align-self: center;
+    padding-bottom: 50px;
   }
 
   .p-community {
