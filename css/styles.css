@@ -28,7 +28,7 @@
 
   background-color: white;
   top: 0;
-  margin-bottom: 85px;
+
   z-index: 5;
 }
 
@@ -94,7 +94,7 @@ ul {
 /*FIRST PART
 ====================*/
 
-/*.container::after {
+.first-block::after {
   content: "";
   display: block;
   width: 440px;
@@ -108,28 +108,16 @@ ul {
   background: 27, 2px;
   background-position-x: 1000px;
   background-position-y: 0px;
-  position: relative;
-  left: 670px;
-  bottom: 4550px;
+  position: absolute;
+  left: 1160px;
   z-index: 2;
-  margin: 0 auto;
   transform: rotate(140deg);
-  
-}*/
-.rectangle-part {
-  display: flex;
-  overflow-block: hidden;
-}
-.rectangle {
-  width: 470px;
-  height: 597px;
-  z-index: 1;
-  position: relative;
   margin-top: -100px;
-  
 }
 
-.red-box {
+.first-block::before {
+  content: "";
+  display: block;
   width: 413px;
   height: 571.4px;
   opacity: 0.9;
@@ -141,35 +129,18 @@ ul {
   background: 27, 2px;
   z-index: 1;
   position: absolute;
-  transform: rotate(120deg);
+  transform: rotate(155deg);
   margin-bottom: 100px;
-  
+  left: 1150px;
+  margin-top: -130px;
 }
-
-
-.lila-box {
-  width: 440px;
-  height: 596.5px;
-  opacity: 0.9;
-  border-radius: 40px;
-  -webkit-backdrop-filter: blur(27.2px);
-  backdrop-filter: blur(27.2px);
-  box-shadow: 0 8px 16px 0 var(--black-20);
-  background-image: linear-gradient(to top, #9c09db, #1c0fd7);
-  background: 27, 2px;
-  background-position-x: 1000px;
-  background-position-y: 0px;
-  position: absolute;
-  z-index: 2;
-  margin-top: -90px;
-  transform: rotate(140deg);
-}
-
 
 .first-block {
   display: flex;
   justify-content: center;
   margin-bottom: 180px;
+  position: relative;
+  overflow: hidden;
 }
 
 .first-part {
@@ -206,10 +177,11 @@ ul {
   line-height: 1.52;
   letter-spacing: normal;
   color: #000000;
+  margin-bottom: 0;
 }
 
 .compitable-with-block {
-  margin-top: 150px;
+  margin-top: 80px;
   max-width: 460px;
   width: 100%;
 
@@ -244,6 +216,7 @@ ul {
   height: 620px;
   position: relative;
   z-index: 4;
+  padding-top: 55px;
 }
 
 /*MAIN PART
@@ -254,7 +227,27 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
+.second-block::before {
+  content: "";
+  display: block;
+  width: 132.1px;
+  height: 424.3px;
+  opacity: 0.9;
+  border-radius: 40px;
+  -webkit-backdrop-filter: blur(27.2px);
+  backdrop-filter: blur(27.2px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to top, #32fbfc, #3214f2);
+  position: absolute;
+  transform: rotate(50deg);
+  margin-left: -840px;
+  margin-top: -250px;
+
+}
+    
 
 .second-part {
   display: flex;
@@ -300,6 +293,7 @@ ul {
   line-height: 1.05;
   letter-spacing: normal;
   color: #000000;
+  margin-top: 0px;
 }
 
 .p-middle {
@@ -314,6 +308,7 @@ ul {
   line-height: 1.52;
   letter-spacing: normal;
   color: #000000;
+  
 }
 /*BUTTONS IN THE MIDDLE*/
 
