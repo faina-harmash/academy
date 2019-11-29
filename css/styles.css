@@ -94,12 +94,9 @@ ul {
 /*FIRST PART
 ====================*/
 
-/*FUCKING RECTANGLE
-.div-rectangle {
-  display: flex;
-  justify-content: flex-end;
-}
-.square {
+/*.container::after {
+  content: "";
+  display: block;
   width: 440px;
   height: 596.5px;
   opacity: 0.9;
@@ -111,11 +108,28 @@ ul {
   background: 27, 2px;
   background-position-x: 1000px;
   background-position-y: 0px;
-  z-index: 4;
   position: relative;
+  left: 670px;
+  bottom: 4550px;
+  z-index: 2;
+  margin: 0 auto;
+  transform: rotate(140deg);
+  
+}*/
+.rectangle-part {
+  display: flex;
+  overflow-block: hidden;
+}
+.rectangle {
+  width: 470px;
+  height: 597px;
+  z-index: 1;
+  position: relative;
+  margin-top: -100px;
+  
 }
 
-.square-orange {
+.red-box {
   width: 413px;
   height: 571.4px;
   opacity: 0.9;
@@ -125,10 +139,33 @@ ul {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
   background-image: linear-gradient(to top, #f2c314, #fc3832);
   background: 27, 2px;
-  z-index: 3;
-  position: relative;
+  z-index: 1;
+  position: absolute;
+  transform: rotate(120deg);
+  margin-bottom: 100px;
+  
 }
-*/
+
+
+.lila-box {
+  width: 440px;
+  height: 596.5px;
+  opacity: 0.9;
+  border-radius: 40px;
+  -webkit-backdrop-filter: blur(27.2px);
+  backdrop-filter: blur(27.2px);
+  box-shadow: 0 8px 16px 0 var(--black-20);
+  background-image: linear-gradient(to top, #9c09db, #1c0fd7);
+  background: 27, 2px;
+  background-position-x: 1000px;
+  background-position-y: 0px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -90px;
+  transform: rotate(140deg);
+}
+
+
 .first-block {
   display: flex;
   justify-content: center;
@@ -205,6 +242,8 @@ ul {
   max-width: 310px;
   width: 100%;
   height: 620px;
+  position: relative;
+  z-index: 4;
 }
 
 /*MAIN PART
