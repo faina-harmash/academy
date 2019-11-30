@@ -138,7 +138,7 @@ ul {
 .first-block {
   display: flex;
   justify-content: center;
-  margin-bottom: 180px;
+  
   position: relative;
   overflow: hidden;
 }
@@ -210,6 +210,7 @@ ul {
   opacity: 0.6;
 }
 
+
 .iphone-size {
   max-width: 310px;
   width: 100%;
@@ -230,10 +231,11 @@ ul {
   position: relative;
   overflow: hidden;
 }
+
 .second-block::before {
   content: "";
   display: block;
-  width: 132.1px;
+  width: 340.1px;
   height: 424.3px;
   opacity: 0.9;
   border-radius: 40px;
@@ -242,12 +244,10 @@ ul {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(to top, #32fbfc, #3214f2);
   position: absolute;
-  transform: rotate(50deg);
-  margin-left: -840px;
-  margin-top: -250px;
-
+  transform: rotate(-50deg);
+  margin-left: -810px;
+  margin-top: -335px;
 }
-    
 
 .second-part {
   display: flex;
@@ -280,6 +280,7 @@ ul {
   letter-spacing: normal;
   color: #000000;
   align-self: center;
+  padding-top: 180px;
 }
 
 .header2 {
