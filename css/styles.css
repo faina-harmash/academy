@@ -395,7 +395,7 @@ ul {
 
 .images-field {
   width: 1440px;
-  margin-bottom: 140px;
+  margin-bottom: 100px;
   overflow-x: hidden;
 }
 
@@ -512,6 +512,9 @@ ul {
 .iphone-block-part {
   width: 49.5%;
   display: flex;
+  overflow: hidden;
+  padding-top: 140px;
+  padding-bottom: 350px;
 }
 
 .iphone-iphone {
@@ -527,6 +530,8 @@ ul {
   max-width: 651px;
   width: 100%;
   max-height: 511px;
+  margin-left: 120px;
+  margin-top: -100px;
 }
 
 /*BLACK PART*/
